@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { LoginPage } from './components/LoginPage';
-import { Dashboard } from './components/Dashboard';
-import { UploadSample } from './components/UploadSample';
-import { AnalysisDetails } from './components/AnalysisDetails';
-import { PricingPlans } from './components/PricingPlans';
-import { ReportGeneration } from './components/ReportGeneration';
+import { LoginPage } from './components/Screens/LoginPage';
+import { Dashboard } from './components/Screens/Dashboard';
+import { UploadSample } from './components/Screens/UploadSample';
+import { AnalysisDetails } from './components/Screens/AnalysisDetails';
+import { PricingPlans } from './components/Screens/PricingPlans';
+import { ReportGeneration } from './components/Screens/ReportGeneration';
 
 type Page = 'login' | 'dashboard' | 'upload' | 'analysis' | 'pricing' | 'report';
 
